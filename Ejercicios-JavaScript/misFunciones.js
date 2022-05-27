@@ -138,6 +138,19 @@ function cargarResultado()
     document.getElementById("dist").value = cantidad + " " + unidad;
 }
 
-
+function dibujarCirCuad()
+{
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var xMax = canvas.width;
+    var yMax = canvas.height;
+    var margen = 5;
+    ctx.fillStyle = "#d51526";
+    ctx.fillRect(0+margen, yMax-margen, 40, -40);
+    ctx.arc(xMax/2, yMax/2, 250, 0, 2*Math.PI);
+    ctx.stroke();
+    ctx.fillStyle = "#070000"
+    ctx.fill();
+}
 
 
