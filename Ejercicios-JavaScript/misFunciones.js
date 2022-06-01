@@ -188,7 +188,7 @@ function dibujarCuadriculado()
     {
         ctx.moveTo(0, i);
         ctx.lineTo(anchoMax, i);
-        ctx.strokeStyle = "#c0acac";
+        ctx.strokeStyle = "#a9a8a8";
         ctx.stroke();
     }
     ctx.closePath();
@@ -198,7 +198,7 @@ function dibujarCuadriculado()
     {
         ctx.moveTo(i, 0);
         ctx.lineTo(i, alturaMax);
-        ctx.strokeStyle = "#c0acac";
+        ctx.strokeStyle = "#a9a8a8";
         ctx.stroke();
     }
     ctx.closePath();
