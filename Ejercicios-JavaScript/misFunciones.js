@@ -147,10 +147,10 @@ function dibujarCirCuad()
     var margen = 5;
     ctx.fillStyle = "#d51526";
     ctx.fillRect(0+margen, yMax-margen, 40, -40);
-    ctx.arc(xMax/2, yMax/2, 250, 0, 2*Math.PI);
-    ctx.stroke();
+    ctx.arc(xMax/2, yMax/2, 75, 0, 2*Math.PI);
+    ctx.stroke(); //esto marca la linea nomas
     ctx.fillStyle = "#070000"
-    ctx.fill();
+    ctx.fill(); // esto pinta la figura
 }
 var bandera;
 function dibujar(event)
