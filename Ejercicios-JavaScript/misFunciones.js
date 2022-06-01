@@ -221,7 +221,7 @@ function dibujarCuadriculado()
 function dibujarImagen (posX, posY)
 {
     var canvas = document.getElementById("myCanvas");
-    ctx = canvas.getContext("2d");
+    var ctx = canvas.getContext("2d");
 
     console.log(posX, posY);
     var img = new Image();
