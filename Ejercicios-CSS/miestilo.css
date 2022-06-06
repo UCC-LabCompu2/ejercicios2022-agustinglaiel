@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    background: linear-gradient(to right, #030303, #545352);
+}
+div{
+    border: 2px solid #0e0d0d;
+    margin: 10px 20px;
+    padding: 5px 30px;
+    background: rgba(79, 77, 77, 0.99);
+    border-radius: 20px;
+    box-shadow: 5px 6px #999999;
+}
+img{
+    width: 50px; padding: 40px; float: left; border-radius: 50%;
+}
+div p{text-align: left; margin: 12px}
+div h1 {font-family: 'Square Peg', cursive;}
+div h3 {text-shadow: 2px 4px #414040}
