@@ -97,7 +97,7 @@ function calcularResta()
     let num1, num2;
     num1 = Number(document.getElementById("numr1").value);
     num2 = document.getElementById("numr2").value;
-    document.getElementById("totalR").value = num1 - Number(num2);
+    document.getElementById("totalR").innerHTML = num1 - Number(num2);
 }
 
 function calcularMultiplicacion()
@@ -105,7 +105,7 @@ function calcularMultiplicacion()
     let num1, num2;
     num1 = Number(document.getElementById("numm1").value);
     num2 = document.getElementById("numm2").value;
-    document.getElementById("totalM").value = num1 * Number(num2);
+    document.getElementById("totalM").innerHTML = num1 * Number(num2);
 }
 
 function calcularDivision()
@@ -113,7 +113,7 @@ function calcularDivision()
     let num1, num2;
     num1 = Number(document.getElementById("numd1").value);
     num2 = document.getElementById("numd2").value;
-    document.getElementById("totalD").value = num1 / Number(num2);
+    document.getElementById("totalD").innerHTML = num1 / Number(num2);
 }
 
 function cargarWeb()
